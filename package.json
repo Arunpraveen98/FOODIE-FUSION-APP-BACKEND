@@ -1,0 +1,28 @@
+{
+  "name": "foodie-fusion-backend",
+  "version": "1.0.0",
+  "description": "This is Pizza-Hut Application,where users can Order their favorite Food items and make the Payment to Place their orders. ",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=14 <19"
+  },
+  "author": "ARUN PRAVEEN",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.4",
+    "nodemon": "^2.0.22",
+    "stripe": "^8.222.0",
+    "uuid": "^9.0.0"
+  }
+}
