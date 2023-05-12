@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "foodie-fusion-backend",
+  "builds": [
+    {
+      "src": "./server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/server.js"
+    }
+  ]
+}
